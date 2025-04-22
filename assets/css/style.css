@@ -31,6 +31,10 @@
     max-width: 765px;
 }
 
+.buttom-25 {
+    bottom: 25px;
+}
+
 .nav-button {
     border-radius: 23px;
     padding-top: 11px;
@@ -547,7 +551,13 @@ textarea {
 .show-more-img {
     background: #2D3CAE87;
 }
-.padding{
+
+.padding {
     padding-left: 40px;
     padding-right: 40px;
+}
+@media (min-width:1200px) {
+    .mt-xl-96{
+        margin-top: 96px !important;
+    }
 }
