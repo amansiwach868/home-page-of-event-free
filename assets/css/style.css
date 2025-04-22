@@ -544,13 +544,10 @@ textarea {
     column-gap: 18px;
 }
 
-.show-more-img{
-    background-image: url(../images/footer-img-6.png);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size:cover;
-   
+.show-more-img {
+    background: #2D3CAE87;
 }
-.after-heading{
-margin: 13px 12px 13px 12px;
+.padding{
+    padding-left: 40px;
+    padding-right: 40px;
 }
