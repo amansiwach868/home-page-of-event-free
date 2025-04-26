@@ -237,6 +237,10 @@
         right: 0;
     }
 
+    input:checked~. {
+        right: 0;
+    }
+
     .nav-button {
         flex-direction: column;
         grid-area: 20px;
@@ -513,11 +517,13 @@ textarea {
     border-radius: 5px;
     border: 1px solid #00000066;
     padding: 9px 0 9px 17px;
+    resize: none;
 }
 
 .footer {
     min-height: 435px;
     background: #000;
+    padding-top:20px ;
 }
 
 .footer-info {
@@ -557,7 +563,7 @@ textarea {
     padding-right: 40px;
 }
 @media (min-width:1200px) {
-    .mt-xl-96{
+    .mt-xl-96 {
         margin-top: 96px !important;
     }
 }
